@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+/****************************************Section1*********************************************/
+.bakery
+{
+    width: 100%;
+    height: 800px;
+    background-color: aqua;
+    background-image: url('http://www.engage.veented.com/bakery/wp-content/uploads/sites/27/2017/04/drew-coffman-1872.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.bakery .nav
+{
+    width: 100%;
+    height: 80px;
+ 
+    position: fixed;
+  
+}
+.bakery .nav img
+{
+   width: 176.5px;
+   height: 48px;
+   float: left;
+   margin-top: 20px;
+   margin-left: 90px;
+}
+.bakery .nav .items
+{
+   width: 600px;
+   height:100% ;
+  float: right;
+  margin-top: 30px;
+}
+.bakery .nav .items .header
+{
+  margin-top: 40px;
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #fbfbfb;
+}
+.bakery .nav .items .header:hover
+{
+    color: #8e7754;
+}
+.bakery p
+{
+position: absolute;
+bottom: 500px;
+left: 638px;
+font-size: 22px;
+color: #fbfbfb;
+font-family: 'Alegreya Sans', sans-serif;
+}
+.bakery h1
+{
+    position: absolute;
+    bottom: 350px;
+    left: 500px;
+    font-size: 76px !important;
+    color: #fbfbfb;
+    font-weight: 300px;
+
+}
+.bakery .content
+{
+    bottom:330px;
+    left: 340px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 24px;
+}
+
+.bakery .btn1
+{
+   width: 130px;
+   height: 56;
+   background-color: #8e7754;
+   border-radius: 5px;
+  padding-top: 19px;
+  padding-left: 25px;
+  box-sizing: border-box;
+  float: left;
+  bottom: 220px;
+  left: 340px;
+  position: absolute;
+  margin-left: 248px;
+
+}
+.bakery .btn2
+{
+   width: 130px;
+   height: 56;
+ border-radius: 5px;
+  padding-top: 19px;
+  padding-left: 25px;
+  box-sizing: border-box;
+  border:2px solid #fff;
+  float: left;
+  bottom: 220px;
+  left: 340px;
+  position: absolute;
+  margin-left: 390px;
+
+}
+.btn1:hover , .btn2:hover
+{
+    background: #fff !important;
+    color: #222 !important;
+    border: hidden;
+}
+.bakery .mouse{
+    width: 33px;
+    height: 50px;
+    border-radius: 24px;
+    border: 1px solid;
+    position: relative;  
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #fff;
+    left: 700px;
+    bottom: -696px;
+}
+.bakery .mouse .point{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 35%;
+    top: 5%;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    animation-name: action;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    background-color: #fff;
+}
+ 
+@keyframes action {
+    from {top: 5%;}
+    to {top: 50%; opacity: 0;}
+} 
+/**************************************section2*********************************************/
+.section2
+{
+    width: 90%;
+    height: 700px;
+    background-color:#ffffff ;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.section2 .left
+{
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+    float: left;
+}
+.section2 .left img
+{
+    width: 546px;
+    height: 518.68px;
+}
+.section2 .right
+{
+    float: left;
+}
+.section2 .right h2
+{
+    font-size: 32px;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #303030;
+    line-height: 1.38em;
+    padding-top:50px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.section2 .right p
+{
+font-size: 17px;
+font-family: 'Alegreya Sans', sans-serif;
+line-height: 1.86em;
+font-weight: 400;
+color: #686868;
+ padding-top: 10px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.section2 .right .icons
+{
+    width: 100%px;
+    height: 61px;
+    margin-left: 20px;
+    margin-top: 20px;
+  
+}
+.section2 .right .icons p
+{
+padding: 20px;
+font-size: 17px;
+font-family: 'Alegreya Sans', sans-serif;
+color: #686868;
+margin-top: -8px;
+float: left;
+}
+.section2 .right .icons img
+{
+margin-top: 5px;
+float: left;
+}
+/****************************************Section3*****************************************************/
+.section3
+{
+    width: 100%;
+    height: 630px;
+    background-color: #f8f8f8;
+}
+.section3 .left
+{
+  width: 50%;
+  height: 630px;
+  background-color: #f8f8f8;
+  float: left;
+
+}
+.section3 .left h2
+{
+    font-size: 25.5px;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-top: 210px;
+    line-height: 1.38em;
+    margin-left: 60px;
+    color: #303030;
+}
+.section3 .left .p1
+{
+  margin-top: 40px;
+  margin-left: 60px;
+  color: #646464; 
+  line-height: 1.86em;
+  font-size: 18px;
+  font-family: 'Alegreya Sans', sans-serif;
+  
+}
+.section3 .left .p2
+{
+  margin-top: 10px;
+  margin-left: 60px;
+  color: #646464; 
+   line-height: 1.86em;
+  font-size: 18px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+.section3 .right{
+    float: left;
+    background-color: #f8f8f8;
+}
+.section3 .right img{
+    width: 550px;
+    height: 450px;
+  margin-left: 60px;
+  margin-top: 90px;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-top: 110px;
+    margin-left:50%;
+}
+.p3{
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+  margin-left: 33%;
+}
+/**********************************************section4*********************************************/
+.section4
+{
+    width: 90%;
+    height: 700px;
+    background-color: #ffffff;
+    margin-left: 70px;
+}
+.section4 .content
+{
+    width: 30%;
+    height: 350px;
+    background-color: #ffffff;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.section4 .content img{
+    width: 100%;
+    height: 350px;
+}
+.section4 .content h4
+{
+    margin-top: 40px;
+    margin-left: 110px;
+    font-size: 22px;
+    color: #303030;
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+.section4 .content p 
+{
+    line-height: 1.86em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    color: #5a5959;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/**********************************************section5*********************************************/
+.section5
+{
+    width: 100%;
+    height: 800px;
+    background-color: #f8f8f8;
+}
+.section5 .left ,.section5 .right
+{
+    width: 50%;
+    height: 100%;
+    height: 100%;
+    float: left;
+}
+.section5 .left h2
+{
+  font-size: 32px;
+  color: #4e4e4e;
+  font-family: 'Alegreya Sans', sans-serif;
+
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.section5 .left p
+{
+    line-height: 1.86em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    color: #5a5959;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.section5 .right iframe
+{
+margin-top: 130px;
+margin-left: 40px;
+}
+.section5 .left .icons
+{
+  width: 100%;
+  height: 42px;
+  margin-top: 15px;
+}
+.section5 .left .icons p
+{
+margin-top: -35px;
+margin-left: 120px;
+font-size: 17px;
+color: #686868;
+font-family: 'Alegreya Sans', sans-serif;
+
+}
+.section5 .left .icons img
+{
+    margin-left: 40px;
+
+}
+/**************************************************Section6***************************************************/
+.section6
+{
+    width: 100%;
+    height: 400px;
+    background-color: #403d38;
+}
+.section6 .item
+{
+   width: 23%;
+   height: 100%;
+   background-color: #403d38;
+   float: left;
+   margin-left:20px;
+}
+.section6 .item h4
+{
+    font-size: 18px;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #ffffff;
+   margin-top: 30px;
+   margin-left: 20px;
+}
+.section6 .item p 
+{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    opacity: 1;
+    line-height: 1.86em;
+    margin-left: 20px;
+    color: #969696;
+
+}
+.section6 .item ul
+{
+    list-style: none;
+}
+.section6 .item ul li
+{
+    border-bottom:2px solid rgba(255,255,255,0.05);
+    display: list-item;
+    margin-top: 20px;
+    margin-left: -25px;
+    margin-bottom: 6px;
+    padding-bottom: 7px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    color: #969696;
+}
+/********************************************Section7***************************************************/
+.section7
+{
+    width: 100%;
+    height: 300px;
+  background-color: #353330;
+}
+.section7 img
+{
+    margin-top: 40px;
+    margin-left: 460px;
+}
+.section7 p
+{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    margin-left: 550px;
+    margin-top: 20px;
+    color: #969696;
+}
